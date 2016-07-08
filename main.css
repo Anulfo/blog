@@ -10,7 +10,7 @@ img {
 * {
   box-sizing: border-box;
 }
-#article1 {
+#article1 > {
   color: blue;
 }
 
@@ -34,4 +34,11 @@ a:active {
 
 a:visited {
   color: black;
+}
+.hidden {
+  display: none;
+}
+
+.min_input {
+  min-width: 500px
 }
